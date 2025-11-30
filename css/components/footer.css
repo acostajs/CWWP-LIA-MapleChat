@@ -1,0 +1,34 @@
+@import "../variables.css";
+
+footer {
+	background-color: var(--color-bg-dark);
+	color: var(--color-text-white);
+
+	& .logo {
+		height: 200px;
+		width: 200px;
+	}
+
+	& .icons {
+		gap: var(--gap-md);
+	}
+
+	& .icon {
+		height: 20px;
+	}
+
+	& a {
+		color: inherit;
+	}
+}
+
+.footer-content {
+	flex-direction: column;
+	align-items: center;
+	gap: var(--gap-lg);
+}
+
+.footer-links {
+	gap: var(--gap-lg);
+	font-weight: 800;
+}
