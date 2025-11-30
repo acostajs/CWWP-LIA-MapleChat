@@ -1,5 +1,7 @@
-@import "nav.css";
-@import "hero.css";
+@import "components/nav.css";
+@import "components/footer.css";
+@import "sections/hero.css";
+@import "sections/features.css";
 @import "variables.css";
 
 /* RESET */
