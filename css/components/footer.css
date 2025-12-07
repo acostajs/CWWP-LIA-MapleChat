@@ -32,3 +32,10 @@ footer {
 	gap: var(--gap-lg);
 	font-weight: 800;
 }
+
+@media (max-width: 768px) {
+	.footer-links {
+		flex-direction: column;
+		text-align: center;
+	}
+}

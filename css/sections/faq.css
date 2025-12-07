@@ -90,3 +90,14 @@
 	line-height: 1.7;
 	color: var(--color-text-muted);
 }
+
+@media (max-width: 768px) {
+	.faq .container {
+		flex-direction: column;
+	}
+
+	.faq header,
+	.faq .faq-list {
+		width: 100%;
+	}
+}

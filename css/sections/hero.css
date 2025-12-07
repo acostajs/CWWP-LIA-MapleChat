@@ -34,3 +34,20 @@
 .hero-message {
 	font-weight: 700;
 }
+
+@media (max-width: 768px) {
+	.hero aside {
+		display: none;
+	}
+
+	.hero article {
+		width: 100%;
+	}
+
+	.hero-buttons {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		text-align: center;
+	}
+}

@@ -203,3 +203,9 @@ h6 {
 .red {
 	color: var(--color-text-red);
 }
+
+@media (max-width: 768px) {
+	main {
+		padding-top: 0;
+	}
+}

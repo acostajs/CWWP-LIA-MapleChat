@@ -37,3 +37,18 @@
 	grid-column-gap: var(--gap-md);
 	grid-row-gap: var(--gap-xl);
 }
+
+@media (max-width: 768px) {
+	.features-grid {
+		grid-column-gap: var(--gap-sm);
+		grid-row-gap: var(--gap-sm);
+	}
+
+	.features figure {
+		height: 250px;
+	}
+
+	.features article > h3 {
+		width: 100%;
+	}
+}
